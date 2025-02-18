@@ -1,0 +1,154 @@
+@{
+    ViewData["Title"] = "Services";
+}
+
+<head>
+    <style>
+        .container {
+            padding-top: 28px;
+        }
+
+        .card {
+            height: 100%;
+            /* Ensures all cards have the same height */
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card-img-top {
+            object-fit: cover;
+            /* Ensures image fills space properly */
+            height: 200px;
+            /* Adjust height as needed */
+        }
+
+        .card-body {
+            flex-grow: 1;
+            /* Makes sure content expands properly */
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .card-title {
+            font-size: 1.25rem;
+            /* Ensures uniform title size */
+            font-weight: bold;
+        }
+
+        .card-text {
+            flex-grow: 1;
+            /* Ensures text stretches evenly */
+        }
+    </style>
+</head>
+
+<section id="services" class="container">
+    <div class="row">
+        <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card service-card">
+                <img src="../images/s1.png" class="card-img-top img-fluid" alt="Data Cleaning and Preparation Image">
+                <div class="card-body">
+                    <h3 class="card-title">Data Cleaning & Preparation</h3>
+                    <p class="card-text">Ensuring high-quality data for optimal AI/ML model performance.</p>
+                    <a href="../services/data-cleaning.html" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card service-card">
+                <img src="../images/s2.jpg" class="card-img-top img-fluid" alt="AI Deployment Image">
+                <div class="card-body">
+                    <h3 class="card-title">AI Deployment & Integration</h3>
+                    <p class="card-text">Seamlessly integrating AI models into your existing systems.</p>
+                    <a href="../services/ai-deployment.html" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card service-card">
+                <img src="../images/s3.jpg" class="card-img-top img-fluid" alt="Model Training & Development Image">
+                <div class="card-body">
+                    <h3 class="card-title">Model Training & Development</h3>
+                    <p class="card-text">Building and fine-tuning custom AI/ML models for your specific needs.</p>
+                    <a href="../services/model-training.html" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card service-card">
+                <img src="../images/s4.png" class="card-img-top img-fluid" alt="AI/ML Consulting & Strategy Image">
+                <div class="card-body">
+                    <h3 class="card-title">AI/ML Consulting & Strategy</h3>
+                    <p class="card-text">Developing AI/ML strategies to achieve your business objectives.</p>
+                    <a href="../services/ai-ml-consulting.html" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card service-card">
+                <img src="../images/s5.webp" class="card-img-top img-fluid"
+                    alt="AI/ML-Powered Products & Platforms Image">
+                <div class="card-body">
+                    <h3 class="card-title">AI Powered Products & Platforms</h3>
+                    <p class="card-text">Developing innovative AI/ML-driven products and platforms.</p>
+                    <a href="../services/ai-ml-products.html" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card service-card">
+                <img src="../images/s6.png" class="card-img-top img-fluid" alt="AI/ML Education & Training Image">
+                <div class="card-body">
+                    <h3 class="card-title">AI/ML Education & Training</h3>
+                    <p class="card-text">Empowering your team with AI/ML knowledge and skills.</p>
+                    <a href="../services/ai-ml-education.html" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card service-card">
+                <img src="../images/s7.png" class="card-img-top img-fluid" alt="Predictive Analytics">
+                <div class="card-body">
+                    <h3 class="card-title">Predictive Analytics & Probabilty Detection</h3>
+                    <p class="card-text">Forecasting future trends and outcomes, Identifying potential risks and
+                        opportunities
+                    </p>
+                    <a href="../services/predictive-analytics.html" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card service-card">
+                <img src="../images/s8.jpg" class="card-img-top img-fluid" alt="AI/ML-Powered Automation">
+                <div class="card-body">
+                    <h3 class="card-title">AI/ML-Powered Automation</h3>
+                    <p class="card-text">Automating tasks and processes for increased efficiency, reducing manual
+                        effort
+                    </p>
+                    <a href="../services/ai-ml-automation.html" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card service-card">
+                <img src="../images/s9.png" class="card-img-top img-fluid" alt="Computer Vision Solutions">
+                <div class="card-body">
+                    <h3 class="card-title">Computer Vision Solutions</h3>
+                    <p class="card-text">Image and video analysis for applications like object detection.</p>
+                    <a href="../services/computer-vision.html" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+</html>

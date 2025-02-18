@@ -1,0 +1,142 @@
+﻿@{
+    ViewData["Title"] = "Home";
+}
+
+@section Scripts {
+    <!-- Lottie Animation Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.6/lottie.min.js" asp-append-version="true"></script>
+}
+
+<head>
+    <style>
+        .team-member {
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .team-member:hover {
+            transform: scale(1.05);
+        }
+
+        .team-member {
+            width: 100%;
+            max-width: 300px;
+            /* Adjust as needed */
+            height: 350px;
+
+            /* Ensures all cards are the same height */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .team-member img {
+            width: 100%;
+            height: 250px;
+            /* Ensures uniform image height */
+            object-fit: cover;
+            /* Ensures images cover the area without stretching */
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+    </style>
+</head>
+
+<!-- Main Content -->
+<section id="hero">
+    <h2>Innovating the Future with Artificial Intelligence</h2>
+</section>
+
+<section id="achievements">
+    <h2>Achievements</h2>
+    <p>We’ve been recognized for our impactful contributions to AI technology:</p>
+    <ul>
+        <li>Awarded Best AI Startup of 2024 for our innovative solutions.</li>
+        <li>Developed the first AI-driven disaster response system in the region, improving the speed and accuracy
+            of
+            emergency responses.</li>
+        <li>Partnered with over 50 companies to integrate AI into their workflows, driving efficiency and growth
+            across
+            industries.</li>
+        <li>Collaborated with top research institutions to develop cutting-edge machine learning models for
+            healthcare
+            applications.</li>
+        <li>Launched a suite of AI tools that reduced operational costs for our clients by up to 40% while enhancing
+            their data-driven decision-making capabilities.</li>
+    </ul>
+</section>
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Meet Our Team</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card team-member text-center">
+                <img src="images/rameez.jpg" class="card-img-top" alt="Muhammad Rameez">
+                <div class="card-body">
+                    <h5 class="card-title">Muhammad Rameez</h5>
+                    <p class="card-text">CEO | CTO</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card team-member text-center">
+                <img src="images/ayesha.jpg" class="card-img-top" alt="Ayesha Khan">
+                <div class="card-body">
+                    <h5 class="card-title">Ayesha Khan</h5>
+                    <p class="card-text">Marketing Head</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card team-member text-center">
+                <img src="images/ali.jpg" class="card-img-top" alt="Ali Hassan">
+                <div class="card-body">
+                    <h5 class="card-title">Ali Hassan</h5>
+                    <p class="card-text">Lead Developer</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mt-4">
+            <div class="card team-member text-center">
+                <img src="images/fatima.jpg" class="card-img-top" alt="Fatima Noor">
+                <div class="card-body">
+                    <h5 class="card-title">Fatima Noor</h5>
+                    <p class="card-text">UI/UX Designer</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mt-4">
+            <div class="card team-member text-center">
+                <img src="images/omar.jpg" class="card-img-top" alt="Omar Farooq">
+                <div class="card-body">
+                    <h5 class="card-title">Omar Farooq</h5>
+                    <p class="card-text">Project Manager</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mt-4">
+            <div class="card team-member text-center">
+                <img src="images/zain.jpg" class="card-img-top" alt="Zain Abbas">
+                <div class="card-body">
+                    <h5 class="card-title">Zain Abbas</h5>
+                    <p class="card-text">Software Engineer</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>Founded in 2020, Neuronix Labs has quickly become a leader in AI research, and we are continuously
+        expanding
+        our reach. We partner with industries like healthcare, finance, manufacturing, and logistics, bringing AI
+        technologies that drive profitability and create value for society. At Neuronix Labs, we specialize in
+        creating
+        AI-driven innovations that address real-world challenges. Our
+        team
+        of engineers, data scientists, and AI experts work tirelessly to push the boundaries of what's possible.
+        From
+        revolutionizing business operations to improving everyday life, our mission is to build smarter, more
+        efficient,
+        and sustainable solutions.</p>
+</section>

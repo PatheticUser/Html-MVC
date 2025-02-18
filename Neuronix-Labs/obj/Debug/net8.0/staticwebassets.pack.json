@@ -1,0 +1,409 @@
+{
+  "Files": [
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Neuronix-Labs.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Neuronix-Labs.bundle.scp.css"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\images\\Animation - 1738049438776.json",
+      "PackagePath": "staticwebassets\\images\\Animation - 1738049438776.json"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\images\\ali.jpg",
+      "PackagePath": "staticwebassets\\images\\ali.jpg"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\images\\android-chrome-192x192.png",
+      "PackagePath": "staticwebassets\\images\\android-chrome-192x192.png"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\images\\android-chrome-512x512.png",
+      "PackagePath": "staticwebassets\\images\\android-chrome-512x512.png"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\images\\apple-touch-icon.png",
+      "PackagePath": "staticwebassets\\images\\apple-touch-icon.png"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\images\\ayesha.jpg",
+      "PackagePath": "staticwebassets\\images\\ayesha.jpg"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\images\\fatima.jpg",
+      "PackagePath": "staticwebassets\\images\\fatima.jpg"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\images\\favicon-16x16.png",
+      "PackagePath": "staticwebassets\\images\\favicon-16x16.png"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\images\\favicon-32x32.png",
+      "PackagePath": "staticwebassets\\images\\favicon-32x32.png"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\images\\favicon.ico",
+      "PackagePath": "staticwebassets\\images\\favicon.ico"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\images\\omar.jpg",
+      "PackagePath": "staticwebassets\\images\\omar.jpg"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\images\\rameez.jpg",
+      "PackagePath": "staticwebassets\\images\\rameez.jpg"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\images\\s1.png",
+      "PackagePath": "staticwebassets\\images\\s1.png"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\images\\s2.jpg",
+      "PackagePath": "staticwebassets\\images\\s2.jpg"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\images\\s3.jpg",
+      "PackagePath": "staticwebassets\\images\\s3.jpg"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\images\\s4.png",
+      "PackagePath": "staticwebassets\\images\\s4.png"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\images\\s5.webp",
+      "PackagePath": "staticwebassets\\images\\s5.webp"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\images\\s6.png",
+      "PackagePath": "staticwebassets\\images\\s6.png"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\images\\s7.png",
+      "PackagePath": "staticwebassets\\images\\s7.png"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\images\\s8.jpg",
+      "PackagePath": "staticwebassets\\images\\s8.jpg"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\images\\s9.png",
+      "PackagePath": "staticwebassets\\images\\s9.png"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\images\\site.webmanifest",
+      "PackagePath": "staticwebassets\\images\\site.webmanifest"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\images\\temp.txt",
+      "PackagePath": "staticwebassets\\images\\temp.txt"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\images\\zain.jpg",
+      "PackagePath": "staticwebassets\\images\\zain.jpg"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\products\\p1.jpg",
+      "PackagePath": "staticwebassets\\products\\p1.jpg"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\products\\p10.png",
+      "PackagePath": "staticwebassets\\products\\p10.png"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\products\\p11.jpg",
+      "PackagePath": "staticwebassets\\products\\p11.jpg"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\products\\p12a.png",
+      "PackagePath": "staticwebassets\\products\\p12a.png"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\products\\p12b.webp",
+      "PackagePath": "staticwebassets\\products\\p12b.webp"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\products\\p2.png",
+      "PackagePath": "staticwebassets\\products\\p2.png"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\products\\p3.webp",
+      "PackagePath": "staticwebassets\\products\\p3.webp"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\products\\p4.png",
+      "PackagePath": "staticwebassets\\products\\p4.png"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\products\\p5.webp",
+      "PackagePath": "staticwebassets\\products\\p5.webp"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\products\\p6.png",
+      "PackagePath": "staticwebassets\\products\\p6.png"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\products\\p7.webp",
+      "PackagePath": "staticwebassets\\products\\p7.webp"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\products\\p8.jpg",
+      "PackagePath": "staticwebassets\\products\\p8.jpg"
+    },
+    {
+      "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\products\\p9.png",
+      "PackagePath": "staticwebassets\\products\\p9.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Neuronix-Labs.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Neuronix-Labs.props",
+      "PackagePath": "build\\Neuronix-Labs.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Neuronix-Labs.props",
+      "PackagePath": "buildMultiTargeting\\Neuronix-Labs.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Neuronix-Labs.props",
+      "PackagePath": "buildTransitive\\Neuronix-Labs.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
