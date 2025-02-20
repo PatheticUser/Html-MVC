@@ -29,3 +29,6 @@ c:\Users\Ash\Documents\Code\C#\Neuronix-Labs\obj\Debug\net8.0\refint\Neuronix-La
 c:\Users\Ash\Documents\Code\C#\Neuronix-Labs\obj\Debug\net8.0\Neuronix-Labs.pdb
 c:\Users\Ash\Documents\Code\C#\Neuronix-Labs\obj\Debug\net8.0\Neuronix-Labs.genruntimeconfig.cache
 c:\Users\Ash\Documents\Code\C#\Neuronix-Labs\obj\Debug\net8.0\ref\Neuronix-Labs.dll
+C:\Users\Ash\Documents\Code\C#\Neuronix-Labs\bin\Debug\net8.0\Neuronix-Labs.staticwebassets.endpoints.json
+C:\Users\Ash\Documents\Code\C#\Neuronix-Labs\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Ash\Documents\Code\C#\Neuronix-Labs\obj\Debug\net8.0\staticwebassets\msbuild.Neuronix-Labs.Microsoft.AspNetCore.StaticWebAssetEndpoints.props

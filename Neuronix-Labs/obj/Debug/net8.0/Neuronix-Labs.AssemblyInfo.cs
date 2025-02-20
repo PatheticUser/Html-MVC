@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Neuronix-Labs")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f3ab4f972bae190e9ff7c327d07d9c9cfd5ec077")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c5aca28a4d3d267f6416c1e2183a01c13f95aae6")]
 [assembly: System.Reflection.AssemblyProductAttribute("Neuronix-Labs")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Neuronix-Labs")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,14 +1,12 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace MyApp.Namespace
+namespace MyApp.Controllers
 {
     public class ProductsController : Controller
     {
-        // GET: ProductsController
-        public ActionResult Index()
+        public IActionResult Index()
         {
             return View();
         }
-
     }
 }

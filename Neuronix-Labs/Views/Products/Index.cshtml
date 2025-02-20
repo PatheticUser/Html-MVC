@@ -30,13 +30,10 @@
 
         .search-input-wrapper {
             width: 360px;
-            /* Set the desired width */
             position: relative;
-            /* Prevents the wrapper from taking full width */
             display: inline-block;
         }
 
-        /* Responsive Adjustments */
         @@media(max - width: 768px) {
                 .search-cart-section {
                     flex-direction: column;
@@ -71,9 +68,7 @@
             padding-right: 35px;
             border: none;
             outline: none;
-            box-shadow: none;
             width: 100%;
-            /* Input takes full width of its parent */
         }
 
         .search-input:focus {
@@ -88,9 +83,7 @@
             border-radius: 50%;
             transition: background-color 0.3s ease;
             border: none;
-            outline: none;
             background: none;
-            /* Optional */
         }
 
         .cart-icon:hover {
@@ -110,11 +103,9 @@
         }
 
         .search-input-wrapper i {
-            /* Target the search icon */
             position: absolute;
             top: 50%;
             right: 10px;
-            /* Adjust as needed */
             transform: translateY(-50%);
         }
 
@@ -122,148 +113,219 @@
             display: flex;
             flex-direction: column;
             height: 100%;
-            /* Make cards take full height of their container */
             transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
 
         .card-img-top {
             object-fit: cover;
-            /* Ensure image covers the space */
             height: 200px;
-            /* Set a fixed height for the image */
-            /* Or use max-height if you want to let the image grow up to a limit:
-            max-height: 200px; */
         }
 
         .card-body {
             flex-grow: 1;
-            /* Allow card body to expand to fill remaining space */
             display: flex;
             flex-direction: column;
         }
 
         .card-text {
             flex-grow: 1;
-            /* Allow description to take up available space */
         }
 
         .card .btn {
             margin-top: auto;
-            /* Push the button to the bottom of the card body */
         }
 
         .row.g-4 {
             --bs-gutter-x: 1.5rem;
-            /* Adjust gutter width as needed */
             --bs-gutter-y: 1.5rem;
-            /* Adjust gutter height as needed */
         }
     </style>
 </head>
 
-<div class="search-cart-section">
-    <div class="d-flex align-items-center gap-3">
-        <div class="search-input-wrapper">
-            <input type="text" class="form-control search-input" placeholder="Search products..." id="searchInput">
-            <i class="fas fa-search"></i>
+<body>
+    <div class="search-cart-section">
+        <div class="d-flex align-items-center gap-3">
+            <div class="search-input-wrapper">
+                <input type="text" class="form-control search-input" placeholder="Search products..." id="searchInput">
+                <i class="fas fa-search"></i>
+            </div>
+            <div class="cart-icon">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="cart-badge">0</span>
+            </div>
         </div>
-        <div class="cart-icon">
-            <i class="fas fa-shopping-cart"></i>
-            <span class="cart-badge">0</span>
+    </div>
+
+    <div class="container py-5" style="margin-top: 100px;">
+        <div class="row g-4" id="products-container"></div>
+        <div class="mt-4">
+            <h3>Your Cart</h3>
+            <ul id="cart-items" class="list-group"></ul>
+            <h4 id="total-bill">Total: $0.00</h4>
         </div>
     </div>
-</div>
 
-<!-- Main Content -->
-<div class="container py-5" style="margin-top: 100px;">
-    <div class="row g-4" id="products-container">
-    </div>
-    <div class="mt-4">
-        <h3>Your Cart</h3>
-        <ul id="cart-items" class="list-group">
-        </ul>
-        <h4 id="total-bill">Total: $0.00</h4>
-    </div>
-</div>
-
-<!-- JavaScript remains exactly the same as in the previous version -->
-<script>
-    // JavaScript code remains exactly the same as before
-    const products = [
-        {
-            name: "DreamCanvas Studio",
-            description: "Transform your imagination into artwork with a text-to-image generator perfect for creators, marketers, and hobbyists.",
-            price: 49.99,
-            image: "" // Updated path
-        },
-        {
-            name: "ModelForge Pro",
-            description: "A no-code platform to train, fine-tune, and deploy machine learning models tailored for your business needs.",
-            price: 99.99,
-            image: "~/products/p2.png" // Updated path
-        },
-        {
-            name: "InsightFlow Dashboard",
-            description: "Track trends, predict outcomes, and visualize data in real-time with an intuitive analytics dashboard.",
-            price: 149.99,
-            image: "/products/p3.webp"
-        },
-        {
-            name: "LingoLens API",
-            description: "Add advanced language understanding to your apps with features like sentiment analysis, summarization, and translation.",
-            price: 29.99,
-            image: "/products/p4.png"
-        },
-        {
-            name: "ChatMate Builder",
-            description: "Create conversational AI chatbots that can handle customer support, booking systems, or even personal assistants.",
-            price: 79.99,
-            image: "/products/p5.webp"
-        },
-        {
-            name: "VisionCraft Suite",
-            description: "A toolkit for developers working on facial recognition, object detection, and augmented reality apps.",
-            price: 129.99,
-            image: "/products/p6.png"
-        },
-        {
-            name: "AutoPilot Assistant",
-            description: "An AI-powered personal assistant that schedules meetings, manages emails, and organizes your day seamlessly.",
-            price: 59.99,
-            image: "/products/p7.webp"
-        },
-        {
-            name: "ContentGenie Pro",
-            description: "Generate engaging blog posts, ad copy, or product descriptions in seconds using generative AI.",
-            price: 89.99,
-            image: "/products/p8.jpg"
-        },
-        {
-            name: "HomeGuardian AI",
-            description: "A smart home security system that uses AI to detect unusual activity and alert you instantly.",
-            price: 199.99,
-            image: "/products/p9.png"
-        },
-        {
-            name: "FitSense Tracker",
-            description: "An AI fitness companion that monitors your workouts and provides personalized health insights.",
-            price: 69.99,
-            image: "/products/p10.png"
-        },
-        {
-            name: "EcoOptimizer",
-            description: "Optimize your energy usage at home or work with an AI system that learns your habits to save costs and reduce waste.",
-            price: 109.99,
-            image: "/products/p11.jpg"
-        },
-        {
-            name: "PetPal Companion",
-            description: "An AI-driven app designed for pet owners. It also provides tailored advice based on your pet's breed and age, ensuring optimal care.",
-            price: 39.99,
-            image: "/products/p12a.png"
-        }
-    ];
     <script>
+        const products = [
+            {
+                name: "DreamCanvas Studio",
+                description: "Transform your imagination into artwork with a text-to-image generator perfect for creators, marketers, and hobbyists.",
+                price: 49.99,
+                image: "../products/p1.jpg"
+            },
+            {
+                name: "ModelForge Pro",
+                description: "A no-code platform to train, fine-tune, and deploy machine learning models tailored for your business needs.",
+                price: 99.99,
+                image: "../products/p2.png"
+            },
+            {
+                name: "InsightFlow Dashboard",
+                description: "Track trends, predict outcomes, and visualize data in real-time with an intuitive analytics dashboard.",
+                price: 149.99,
+                image: "../products/p3.webp"
+            },
+            {
+                name: "LingoLens API",
+                description: "Add advanced language understanding to your apps with features like sentiment analysis, summarization, and translation.",
+                price: 29.99,
+                image: "../products/p4.png"
+            },
+            {
+                name: "ChatMate Builder",
+                description: "Create conversational AI chatbots that can handle customer support, booking systems, or even personal assistants.",
+                price: 79.99,
+                image: "../products/p5.webp"
+            },
+            {
+                name: "VisionCraft Suite",
+                description: "A toolkit for developers working on facial recognition, object detection, and augmented reality apps.",
+                price: 129.99,
+                image: "../products/p6.png"
+            },
+            // New Products
+            {
+                name: "AutoPilot Assistant",
+                description: "An AI-powered personal assistant that schedules meetings, manages emails, and organizes your day seamlessly.",
+                price: 59.99,
+                image: "../products/p7.webp"
+            },
+            {
+                name: "ContentGenie Pro",
+                description: "Generate engaging blog posts, ad copy, or product descriptions in seconds using generative AI.",
+                price: 89.99,
+                image: "../products/p8.jpg"
+            },
+            {
+                name: "HomeGuardian AI",
+                description: "A smart home security system that uses AI to detect unusual activity and alert you instantly.",
+                price: 199.99,
+                image: "../products/p9.png"
+            },
+            {
+                name: "FitSense Tracker",
+                description: "An AI fitness companion that monitors your workouts and provides personalized health insights.",
+                price: 69.99,
+                image: "../products/p10.png"
+            },
+            {
+                name: "EcoOptimizer",
+                description: "Optimize your energy usage at home or work with an AI system that learns your habits to save costs and reduce waste.",
+                price: 109.99,
+                image: "../products/p11.jpg"
+            },
+            {
+                name: "PetPal Companion",
+                description: "An AI-driven app designed for pet owners. It also provides tailored advice based on your pet's breed and age, ensuring optimal care.",
+                price: 39.99,
+                image: "../products/p12a.png"
+            }
+        ];
 
-        <body>
-            <html>
+        document.addEventListener("DOMContentLoaded", function () {
+            const productsContainer = document.getElementById("products-container");
+            const cartItems = document.getElementById("cart-items");
+            const totalBill = document.getElementById("total-bill");
+            const searchInput = document.getElementById("searchInput");
+            let cart = [];
+
+            function displayProducts(productsToShow = products) {
+                productsContainer.innerHTML = '';
+                productsToShow.forEach(product => {
+                    const card = document.createElement("div");
+                    card.classList.add("col-12", "col-sm-6", "col-lg-3");
+                    card.innerHTML = `
+                        <div class="card h-100">
+                            <img src="${product.image}" class="card-img-top" alt="${product.name}">
+                            <div class="card-body">
+                                <h5 class="card-title">${product.name}</h5>
+                                <p class="card-text text-muted">${product.description}</p>
+                                <div class="d-flex justify-content-between align-items-center mt-3">
+                                    <span class="h5 mb-0">$${product.price.toFixed(2)}</span>
+                                    <button class="btn btn-primary add-to-cart" data-product-name="${product.name}" data-product-price="${product.price}">Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                    productsContainer.appendChild(card);
+                });
+
+                const addToCartButtons = document.querySelectorAll(".add-to-cart");
+                addToCartButtons.forEach(button => {
+                    button.addEventListener("click", addToCart);
+                });
+            }
+
+            function addToCart(event) {
+                const productName = event.target.dataset.productName;
+                const productPrice = parseFloat(event.target.dataset.productPrice);
+
+                const existingProduct = cart.find(item => item.name === productName);
+                if (existingProduct) {
+                    existingProduct.quantity++;
+                } else {
+                    cart.push({ name: productName, price: productPrice, quantity: 1 });
+                }
+
+                updateCart();
+            }
+
+            function updateCart() {
+                cartItems.innerHTML = "";
+                let total = 0;
+
+                cart.forEach(item => {
+                    const listItem = document.createElement("li");
+                    listItem.classList.add("list-group-item");
+                    listItem.textContent = `${item.name} x ${item.quantity} - $${(item.price * item.quantity).toFixed(2)}`;
+                    cartItems.appendChild(listItem);
+                    total += item.price * item.quantity;
+                });
+
+                totalBill.textContent = `Total: $${total.toFixed(2)}`;
+
+                const totalQuantity = cart.reduce((sum, item) => sum + item.quantity, 0);
+                document.querySelectorAll('.cart-badge').forEach(badge => {
+                    badge.textContent = totalQuantity;
+                });
+            }
+
+            let searchTimeout;
+            searchInput.addEventListener('input', (e) => {
+                clearTimeout(searchTimeout);
+                searchTimeout = setTimeout(() => {
+                    const searchTerm = e.target.value.toLowerCase();
+                    const filteredProducts = products.filter(product =>
+                        product.name.toLowerCase().includes(searchTerm) ||
+                        product.description.toLowerCase().includes(searchTerm)
+                    );
+                    displayProducts(filteredProducts);
+                }, 300);
+            });
+
+            displayProducts();
+        });
+    </script>
+</body>
+
+</html>

@@ -2,7 +2,7 @@
   "Files": [
     {
       "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Neuronix-Labs.bundle.scp.css",
-      "PackagePath": "staticwebassets\\Neuronix-Labs.bundle.scp.css"
+      "PackagePath": "staticwebassets\\Neuronix-Labs.sh7l7uky3c.bundle.scp.css"
     },
     {
       "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\css\\styles.css",
@@ -387,6 +387,10 @@
     {
       "Id": "c:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\wwwroot\\products\\p9.png",
       "PackagePath": "staticwebassets\\products\\p9.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Neuronix-Labs.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Neuronix-Labs.Microsoft.AspNetCore.StaticWebAssets.props",
