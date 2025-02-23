@@ -1,4 +1,6 @@
-﻿@{
+﻿@model Neuronix_Labs.Models.ViewModels.ArticleViewModel
+
+@{
     ViewData["Title"] = "Articles";
 }
 
@@ -15,7 +17,6 @@
 
         .container {
             padding-top: 15px;
-            /* Added padding to prevent content from being hidden under the fixed navbar */
         }
 
         .article-card:hover {
@@ -44,118 +45,21 @@
     </style>
 </head>
 
-
 <main class="mt-1 pt-1">
     <div class="container">
         <div class="row">
-            <!-- AI & Computer Vision -->
-            <div class="col-md-6 col-lg-4 mb-4">
-                <div class="card article-card p-3">
-                    <span class="category">AI & Computer Vision</span>
-                    <h4 class="article-title">The Future of Facial Recognition: Innovations and
-                        Challenges</h4>
-                    <p>Exploring advancements and ethical dilemmas surrounding facial recognition technology.
-                    </p>
-                    <a href="#" class="read-more">Read More</a>
+            @foreach (var article in Model.Articles)
+            {
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card article-card p-3">
+                        <span class="category">@article.Category</span>
+                        <h4 class="article-title">@article.Title</h4>
+                        <p>@article.Description</p>
+                        <a href="@Url.Action("Details", "Articles", new { id = article.ArticleId })" class="read-more">Read
+                            More</a>
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-6 col-lg-4 mb-4">
-                <div class="card article-card p-3">
-                    <span class="category">AI & Computer Vision</span>
-                    <h4 class="article-title">Real-Time Object Detection: Applications and Business Benefits
-                    </h4>
-                    <p>How businesses leverage real-time object detection to enhance efficiency.</p>
-                    <a href="#" class="read-more">Read More</a>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4 mb-4">
-                <div class="card article-card p-3">
-                    <span class="category">AI & Computer Vision</span>
-                    <h4 class="article-title">Enhancing Security with AI-Powered Surveillance Systems</h4>
-                    <p>How AI-driven surveillance is shaping modern security infrastructure.</p>
-                    <a href="#" class="read-more">Read More</a>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4 mb-4">
-                <div class="card article-card p-3">
-                    <span class="category">AI & Computer Vision</span>
-                    <h4 class="article-title">Autonomous Vehicles: The Road to Safer
-                        Transportation</h4>
-                    <p>How computer vision is making autonomous driving safer and more efficient.</p>
-                    <a href="#" class="read-more">Read More</a>
-                </div>
-            </div>
-
-            <!-- Machine Learning & Deep Learning -->
-            <div class="col-md-6 col-lg-4 mb-4">
-                <div class="card article-card p-3">
-                    <span class="category">Machine Learning & Deep Learning</span>
-                    <h4 class="article-title">The Role of Neural Networks in Image and Speech Recognition</h4>
-                    <p>How neural networks are advancing image and speech recognition capabilities.</p>
-                    <a href="#" class="read-more">Read More</a>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4 mb-4">
-                <div class="card article-card p-3">
-                    <span class="category">Machine Learning & Deep Learning</span>
-                    <h4 class="article-title">How AI is Powering Predictive Analytics in Various Industries</h4>
-                    <p>The impact of AI-driven predictive analytics on business decision-making.</p>
-                    <a href="#" class="read-more">Read More</a>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4 mb-4">
-                <div class="card article-card p-3">
-                    <span class="category">Machine Learning & Deep Learning</span>
-                    <h4 class="article-title">Deep Learning for Edge Computing: Bringing AI to IoT Devices</h4>
-                    <p>How deep learning is enabling real-time processing on edge devices.</p>
-                    <a href="#" class="read-more">Read More</a>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4 mb-4">
-                <div class="card article-card p-3">
-                    <span class="category">Machine Learning & Deep Learning</span>
-                    <h4 class="article-title">Reinforcement Learning: How Machines are Learning to Make
-                        Decisions</h4>
-                    <p>Understanding reinforcement learning and its applications in AI.</p>
-                    <a href="#" class="read-more">Read More</a>
-                </div>
-            </div>
-
-            <!-- AI in Business & Innovation -->
-            <div class="col-md-6 col-lg-4 mb-4">
-                <div class="card article-card p-3">
-                    <span class="category">AI in Business & Innovation</span>
-                    <h4 class="article-title">AI-Driven Chatbots: Enhancing Customer Support with Smart
-                        Automation</h4>
-                    <p>How AI-powered chatbots are revolutionizing customer support services.</p>
-                    <a href="#" class="read-more">Read More</a>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4 mb-4">
-                <div class="card article-card p-3">
-                    <span class="category">AI in Business & Innovation</span>
-                    <h4 class="article-title">AI-Powered Marketing: Personalization at Scale</h4>
-                    <p>How AI is reshaping marketing with data-driven personalization.</p>
-                    <a href="#" class="read-more">Read More</a>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4 mb-4">
-                <div class="card article-card p-3">
-                    <span class="category">AI in Business & Innovation</span>
-                    <h4 class="article-title">Transforming Financial Fraud Detection and Risk
-                        Assessment</h4>
-                    <p>The role of AI in detecting fraudulent transactions and mitigating risks.</p>
-                    <a href="#" class="read-more">Read More</a>
-                </div>
-            </div>
-
-            <!-- Ethics & Future of AI -->
-            <div class="col-md-6 col-lg-4 mb-4">
-                <div class="card article-card p-3">
-                    <span class="category">Ethics & Future of AI</span>
-                    <h4 class="article-title">The Impact of AI on Jobs: Myths vs. Reality</h4>
-                    <p>Separating fact from fiction regarding AI's effect on employment.</p>
-                    <a href="#" class="read-more">Read More</a>
-                </div>
-            </div>
+            }
+        </div>
+    </div>
 </main>

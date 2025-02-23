@@ -1000,13 +1000,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Neuronix-Labs.sh7l7uky3c.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-MHj2mJ4qzoIYJHxyypl4aAD5yo/unR8XVlV0GSIGz1Y="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1131"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022MHj2mJ4qzoIYJHxyypl4aAD5yo/unR8XVlV0GSIGz1Y=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 09:05:11 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1131"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022MHj2mJ4qzoIYJHxyypl4aAD5yo/unR8XVlV0GSIGz1Y=\u0022"},{"Name":"Last-Modified","Value":"Sun, 23 Feb 2025 10:46:35 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Neuronix-Labs/Neuronix-Labs.sh7l7uky3c.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Neuronix-Labs.sh7l7uky3c.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"sh7l7uky3c"},{"Name":"integrity","Value":"sha256-MHj2mJ4qzoIYJHxyypl4aAD5yo/unR8XVlV0GSIGz1Y="},{"Name":"label","Value":"_content/Neuronix-Labs/Neuronix-Labs.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1131"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022MHj2mJ4qzoIYJHxyypl4aAD5yo/unR8XVlV0GSIGz1Y=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 09:05:11 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1131"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022MHj2mJ4qzoIYJHxyypl4aAD5yo/unR8XVlV0GSIGz1Y=\u0022"},{"Name":"Last-Modified","Value":"Sun, 23 Feb 2025 10:46:35 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Neuronix-Labs/products/p1.ftugtvhmtg.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\products\p1.jpg'))</AssetFile>

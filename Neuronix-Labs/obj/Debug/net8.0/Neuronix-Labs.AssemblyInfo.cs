@@ -10,10 +10,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("c4016901-75b0-4406-92c1-1c793d9024ea")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("Neuronix-Labs")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c5aca28a4d3d267f6416c1e2183a01c13f95aae6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f2c60bfb19de493d6b09e0535e41b68b8141435d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Neuronix-Labs")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Neuronix-Labs")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
