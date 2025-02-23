@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Ash\\Documents\\Code\\C#\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7938CC72-C018-495E-B510-F5A46EBC625C}|Neuronix-Labs\\Neuronix-Labs.csproj|c:\\users\\ash\\documents\\code\\c#\\neuronix-labs\\views\\articles\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7938CC72-C018-495E-B510-F5A46EBC625C}|Neuronix-Labs\\Neuronix-Labs.csproj|solutionrelative:neuronix-labs\\views\\articles\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\Migrations\\20250223155423_Final.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Neuronix-Labs\\Migrations\\20250223155423_Final.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\Views\\Articles\\Create.cshtml",
-              "RelativeDocumentMoniker": "Neuronix-Labs\\Views\\Articles\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\Views\\Articles\\Create.cshtml",
-              "RelativeToolTip": "Neuronix-Labs\\Views\\Articles\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-23T11:34:48.572Z",
+              "Title": "20250223155423_Final.cs",
+              "DocumentMoniker": "C:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\Migrations\\20250223155423_Final.cs",
+              "RelativeDocumentMoniker": "Neuronix-Labs\\Migrations\\20250223155423_Final.cs",
+              "ToolTip": "C:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\Migrations\\20250223155423_Final.cs",
+              "RelativeToolTip": "Neuronix-Labs\\Migrations\\20250223155423_Final.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwBwAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T15:54:23.269Z",
               "EditorCaption": ""
             }
           ]

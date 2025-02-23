@@ -5,7 +5,7 @@
 namespace Neuronix_Labs.Migrations
 {
     /// <inheritdoc />
-    public partial class New : Migration
+    public partial class Final : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -23,7 +23,6 @@ namespace Neuronix_Labs.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Articles", x => x.ArticleId);
-
                 });
 
             migrationBuilder.CreateTable(

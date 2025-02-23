@@ -11,8 +11,8 @@ using Neuronix_Labs.Models;
 namespace Neuronix_Labs.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250223111658_New")]
-    partial class New
+    [Migration("20250223155423_Final")]
+    partial class Final
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
