@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Neuronix-Labs")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2551e76347c424e2d574bd76aea6551ce4af0a71")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1af6ee2efb4054793eebf01d00aa5dd0e0cb9387")]
 [assembly: System.Reflection.AssemblyProductAttribute("Neuronix-Labs")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Neuronix-Labs")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Ash\\Documents\\Code\\C#\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7938CC72-C018-495E-B510-F5A46EBC625C}|Neuronix-Labs\\Neuronix-Labs.csproj|c:\\users\\ash\\documents\\code\\c#\\neuronix-labs\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7938CC72-C018-495E-B510-F5A46EBC625C}|Neuronix-Labs\\Neuronix-Labs.csproj|solutionrelative:neuronix-labs\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7938CC72-C018-495E-B510-F5A46EBC625C}|Neuronix-Labs\\Neuronix-Labs.csproj|c:\\users\\ash\\documents\\code\\c#\\neuronix-labs\\views\\services\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7938CC72-C018-495E-B510-F5A46EBC625C}|Neuronix-Labs\\Neuronix-Labs.csproj|solutionrelative:neuronix-labs\\views\\services\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -42,11 +46,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\appsettings.json",
+              "RelativeDocumentMoniker": "Neuronix-Labs\\appsettings.json",
+              "ToolTip": "C:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\appsettings.json",
+              "RelativeToolTip": "Neuronix-Labs\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-24T20:00:35.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ServicesController.cs",
               "DocumentMoniker": "C:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\Controllers\\ServicesController.cs",
               "RelativeDocumentMoniker": "Neuronix-Labs\\Controllers\\ServicesController.cs",
@@ -59,7 +76,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Articles.cs",
               "DocumentMoniker": "C:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\Models\\Articles.cs",
               "RelativeDocumentMoniker": "Neuronix-Labs\\Models\\Articles.cs",
@@ -72,7 +89,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ProductsController.cs",
               "DocumentMoniker": "C:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "Neuronix-Labs\\Controllers\\ProductsController.cs",
@@ -85,7 +102,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Services.cs",
               "DocumentMoniker": "C:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\Models\\Services.cs",
               "RelativeDocumentMoniker": "Neuronix-Labs\\Models\\Services.cs",
@@ -98,20 +115,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\Views\\Services\\Index.cshtml",
               "RelativeDocumentMoniker": "Neuronix-Labs\\Views\\Services\\Index.cshtml",
               "ToolTip": "C:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\Views\\Services\\Index.cshtml",
               "RelativeToolTip": "Neuronix-Labs\\Views\\Services\\Index.cshtml",
-              "ViewState": "AgIAACgAAAAAAAAAAAAAADIAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAADYAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-02-24T10:41:07.71Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\Models\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Neuronix-Labs\\Models\\ApplicationDbContext.cs",
@@ -124,7 +141,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "ArticlesController.cs",
               "DocumentMoniker": "C:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\Controllers\\ArticlesController.cs",
               "RelativeDocumentMoniker": "Neuronix-Labs\\Controllers\\ArticlesController.cs",
@@ -137,7 +154,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "20250223155423_Final.cs",
               "DocumentMoniker": "C:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\Migrations\\20250223155423_Final.cs",
               "RelativeDocumentMoniker": "Neuronix-Labs\\Migrations\\20250223155423_Final.cs",
@@ -145,7 +162,8 @@
               "RelativeToolTip": "Neuronix-Labs\\Migrations\\20250223155423_Final.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T15:54:23.269Z"
+              "WhenOpened": "2025-02-23T15:54:23.269Z",
+              "EditorCaption": ""
             }
           ]
         }
