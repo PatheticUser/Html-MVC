@@ -13,6 +13,7 @@ namespace Neuronix_Labs.Models
                 .HasPrecision(18, 2);
 
         public DbSet<Article> Articles { get; set; } // Connects Articles table to the database
+        public DbSet<Services> Services { get; set; }
     }
 }
 

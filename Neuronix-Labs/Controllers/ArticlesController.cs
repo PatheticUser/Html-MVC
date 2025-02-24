@@ -23,25 +23,5 @@ namespace Neuronix_Labs.Controllers
             var model = new ArticleViewModel { Articles = articles };
             return View(model);
         }
-
-        // GET: Articles/Create
-        public IActionResult Create()
-        {
-            return View();
-        }
-
-        // POST: Articles/Create
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Category,Title,Description")] Article article)
-        {
-            if (ModelState.IsValid)
-            {
-                _context.Add(article);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
-            }
-            return View(article);
-        }
     }
 }

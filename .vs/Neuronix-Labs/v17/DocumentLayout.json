@@ -3,8 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\Ash\\Documents\\Code\\C#\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\Migrations\\20250223155423_Final.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Neuronix-Labs\\Migrations\\20250223155423_Final.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7938CC72-C018-495E-B510-F5A46EBC625C}|Neuronix-Labs\\Neuronix-Labs.csproj|c:\\users\\ash\\documents\\code\\c#\\neuronix-labs\\views\\services\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7938CC72-C018-495E-B510-F5A46EBC625C}|Neuronix-Labs\\Neuronix-Labs.csproj|solutionrelative:neuronix-labs\\views\\services\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7938CC72-C018-495E-B510-F5A46EBC625C}|Neuronix-Labs\\Neuronix-Labs.csproj|c:\\users\\ash\\documents\\code\\c#\\neuronix-labs\\controllers\\servicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7938CC72-C018-495E-B510-F5A46EBC625C}|Neuronix-Labs\\Neuronix-Labs.csproj|solutionrelative:neuronix-labs\\controllers\\servicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7938CC72-C018-495E-B510-F5A46EBC625C}|Neuronix-Labs\\Neuronix-Labs.csproj|c:\\users\\ash\\documents\\code\\c#\\neuronix-labs\\models\\services.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7938CC72-C018-495E-B510-F5A46EBC625C}|Neuronix-Labs\\Neuronix-Labs.csproj|solutionrelative:neuronix-labs\\models\\services.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7938CC72-C018-495E-B510-F5A46EBC625C}|Neuronix-Labs\\Neuronix-Labs.csproj|c:\\users\\ash\\documents\\code\\c#\\neuronix-labs\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7938CC72-C018-495E-B510-F5A46EBC625C}|Neuronix-Labs\\Neuronix-Labs.csproj|solutionrelative:neuronix-labs\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7938CC72-C018-495E-B510-F5A46EBC625C}|Neuronix-Labs\\Neuronix-Labs.csproj|c:\\users\\ash\\documents\\code\\c#\\neuronix-labs\\models\\articles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7938CC72-C018-495E-B510-F5A46EBC625C}|Neuronix-Labs\\Neuronix-Labs.csproj|solutionrelative:neuronix-labs\\models\\articles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7938CC72-C018-495E-B510-F5A46EBC625C}|Neuronix-Labs\\Neuronix-Labs.csproj|c:\\users\\ash\\documents\\code\\c#\\neuronix-labs\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7938CC72-C018-495E-B510-F5A46EBC625C}|Neuronix-Labs\\Neuronix-Labs.csproj|solutionrelative:neuronix-labs\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7938CC72-C018-495E-B510-F5A46EBC625C}|Neuronix-Labs\\Neuronix-Labs.csproj|c:\\users\\ash\\documents\\code\\c#\\neuronix-labs\\controllers\\articlescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7938CC72-C018-495E-B510-F5A46EBC625C}|Neuronix-Labs\\Neuronix-Labs.csproj|solutionrelative:neuronix-labs\\controllers\\articlescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7938CC72-C018-495E-B510-F5A46EBC625C}|Neuronix-Labs\\Neuronix-Labs.csproj|c:\\users\\ash\\documents\\code\\c#\\neuronix-labs\\migrations\\20250223155423_final.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7938CC72-C018-495E-B510-F5A46EBC625C}|Neuronix-Labs\\Neuronix-Labs.csproj|solutionrelative:neuronix-labs\\migrations\\20250223155423_final.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,20 +42,110 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ServicesController.cs",
+              "DocumentMoniker": "C:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\Controllers\\ServicesController.cs",
+              "RelativeDocumentMoniker": "Neuronix-Labs\\Controllers\\ServicesController.cs",
+              "ToolTip": "C:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\Controllers\\ServicesController.cs",
+              "RelativeToolTip": "Neuronix-Labs\\Controllers\\ServicesController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwAcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T10:38:53.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Articles.cs",
+              "DocumentMoniker": "C:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\Models\\Articles.cs",
+              "RelativeDocumentMoniker": "Neuronix-Labs\\Models\\Articles.cs",
+              "ToolTip": "C:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\Models\\Articles.cs",
+              "RelativeToolTip": "Neuronix-Labs\\Models\\Articles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T07:02:53.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Neuronix-Labs\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Neuronix-Labs\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T08:20:30.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Services.cs",
+              "DocumentMoniker": "C:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\Models\\Services.cs",
+              "RelativeDocumentMoniker": "Neuronix-Labs\\Models\\Services.cs",
+              "ToolTip": "C:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\Models\\Services.cs",
+              "RelativeToolTip": "Neuronix-Labs\\Models\\Services.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T10:28:13.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\Views\\Services\\Index.cshtml",
+              "RelativeDocumentMoniker": "Neuronix-Labs\\Views\\Services\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\Views\\Services\\Index.cshtml",
+              "RelativeToolTip": "Neuronix-Labs\\Views\\Services\\Index.cshtml",
+              "ViewState": "AgIAACgAAAAAAAAAAAAAADYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-24T10:41:07.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\Models\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Neuronix-Labs\\Models\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\Models\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Neuronix-Labs\\Models\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T10:38:03.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ArticlesController.cs",
+              "DocumentMoniker": "C:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\Controllers\\ArticlesController.cs",
+              "RelativeDocumentMoniker": "Neuronix-Labs\\Controllers\\ArticlesController.cs",
+              "ToolTip": "C:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\Controllers\\ArticlesController.cs",
+              "RelativeToolTip": "Neuronix-Labs\\Controllers\\ArticlesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T10:24:55.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "20250223155423_Final.cs",
               "DocumentMoniker": "C:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\Migrations\\20250223155423_Final.cs",
               "RelativeDocumentMoniker": "Neuronix-Labs\\Migrations\\20250223155423_Final.cs",
               "ToolTip": "C:\\Users\\Ash\\Documents\\Code\\C#\\Neuronix-Labs\\Migrations\\20250223155423_Final.cs",
               "RelativeToolTip": "Neuronix-Labs\\Migrations\\20250223155423_Final.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwBwAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T15:54:23.269Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-23T15:54:23.269Z"
             }
           ]
         }

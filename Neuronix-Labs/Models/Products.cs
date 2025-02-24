@@ -5,8 +5,7 @@ namespace MyApp.Models;
 public class Product
 {
     [Key] // Explicitly marking it as Primary Key
-    public int ProductId { get; set; }  // Rename Id to ProductId
-
+    public int Id { get; set; }  // Rename Id to ProductId
     public string Name { get; set; }
     public string Description { get; set; }
     public decimal Price { get; set; }
